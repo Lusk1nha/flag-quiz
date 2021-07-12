@@ -4,8 +4,8 @@ import { Flags } from "../services/flags";
 import { useState } from "react";
 
 export function RenderQuestions() {
-  const [flagLength, setFlagLength] = useState(9)
-  const [correct, setCorrect] = useState(5)
+  const [flagLength, setFlagLength] = useState(0)
+  const [correct, setCorrect] = useState(0)
 
   const handleReset = () => {
     setCorrect(0)
